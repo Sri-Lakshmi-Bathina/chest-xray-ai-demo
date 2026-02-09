@@ -39,8 +39,9 @@ This project focuses on **interpretability**, not accuracy bragging.
 - Multi-label probability table
 - Human-readable explanation of model behavior
 
-<img width="690" height="777" alt="Screenshot 2026-02-08 at 8 45 43 PM" src="https://github.com/user-attachments/assets/6e57d18b-2abd-4154-8305-a365424b58dc" />
-<img width="690" height="777" alt="Screenshot 2026-02-08 at 8 45 10 PM" src="https://github.com/user-attachments/assets/025a99e4-9599-4ee1-a2b3-fe9cdd8a66bc" />
+<img width="690" height="777" alt="Screenshot 2026-02-08 at 8 45 43 PM" src="https://github.com/user-attachments/assets/7bd2974b-2e80-4d7d-bc6f-a6cdbb9581c2" />
+<img width="690" height="777" alt="Screenshot 2026-02-08 at 8 45 10 PM" src="https://github.com/user-attachments/assets/101ca515-7ac0-4851-9b49-f9adb1f813e2" />
+
 
 ---
 
@@ -104,10 +105,10 @@ This avoids:
 
 ## ⚠️ Responsible AI Disclaimer
 
-- ❌ Not a medical device  
-- ❌ Not FDA approved  
-- ❌ Not for diagnosis or treatment  
-- ✅ Visualization of model behavior only  
+❌ Not a medical device  
+❌ Not FDA approved  
+❌ Not for diagnosis or treatment  
+✅ Visualization of model behavior only  
 
 ---
 
@@ -136,8 +137,8 @@ Steps:
 4. Connect GitHub repo or upload files
 5. App builds automatically
    
-<img width="1710" height="624" alt="Screenshot 2026-02-08 at 8 48 25 PM" src="https://github.com/user-attachments/assets/64d650f1-9107-48eb-8dd5-0dd8e3760fe9" />
-<img width="1709" height="637" alt="Screenshot 2026-02-08 at 8 48 49 PM" src="https://github.com/user-attachments/assets/bfb0f2a7-c8a3-4b07-b71e-dd53ac1a382c" />
+<img width="1710" height="624" alt="Screenshot 2026-02-08 at 8 48 25 PM" src="https://github.com/user-attachments/assets/28c2bd6a-fb7f-4ae5-8e63-a25355003c94" />
+<img width="1709" height="637" alt="Screenshot 2026-02-08 at 8 48 49 PM" src="https://github.com/user-attachments/assets/819e52b1-f035-4816-ab65-11f4b758b012" />
 
 ---
 
