@@ -1,0 +1,26 @@
+PyTorch does NOT officially support Python 3.13
+Use Python 3.10 or 3.11
+
+Python 3.11 is the sweet spot for:
+PyTorch
+Streamlit
+Hugging Face Spaces
+ML demos
+
+1. Create a virtual environment with Python 3.10 or 3.11
+check:
+python3 --version
+python3.11 --version
+
+create venv:
+python3.11 -m venv venv
+
+activate:
+source venv/bin/activate
+
+2. Install dependencies inside the venv
+pip install --upgrade pip
+pip install streamlit torch torchvision torchxrayvision numpy opencv-python pillow
+
+Always run Streamlit like this locally:
+python -m streamlit run app.py

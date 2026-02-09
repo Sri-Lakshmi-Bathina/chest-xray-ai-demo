@@ -1,0 +1,8 @@
+streamlit==1.31.1
+torch==2.1.2
+torchvision==0.16.2
+torchxrayvision==0.0.39
+opencv-python-headless==4.9.0.80
+numpy
+pillow
+requests
