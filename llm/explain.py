@@ -2,9 +2,7 @@ import requests
 import json
 from typing import List
 
-# ---------------------------
 # Ollama configuration
-# ---------------------------
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_GENERATE_URL = f"{OLLAMA_BASE_URL}/api/generate"
 
@@ -12,9 +10,7 @@ OLLAMA_GENERATE_URL = f"{OLLAMA_BASE_URL}/api/generate"
 # You can change this to: "phi3:mini", "mistral:7b", etc.
 OLLAMA_MODEL = "tinyllama"
 
-# ---------------------------
 # Safety-first system prompt
-# ---------------------------
 SYSTEM_PROMPT = """
 You are an AI assistant explaining the behavior of a machine learning model
 that analyzes chest X-ray images.
@@ -27,9 +23,7 @@ IMPORTANT RULES:
 - Use plain, non-alarming language.
 """
 
-# ---------------------------
 # Utility: check if Ollama is running
-# ---------------------------
 def ollama_available() -> bool:
     try:
         requests.get(OLLAMA_BASE_URL, timeout=2)
@@ -37,9 +31,7 @@ def ollama_available() -> bool:
     except Exception:
         return False
 
-# ---------------------------
 # Local LLM explanation (Ollama)
-# ---------------------------
 def generate_llm_explanation(predictions, labels: List[str]) -> str:
     """
     Uses a local Ollama LLM to generate a plain-English explanation.
@@ -85,9 +77,7 @@ Do NOT interpret this as a medical diagnosis.
     response.raise_for_status()
     return response.json().get("response", "").strip()
 
-# ---------------------------
 # Safe fallback (HF Spaces / no Ollama)
-# ---------------------------
 def fallback_explanation(predictions, labels: List[str]) -> str:
     """
     Deterministic, non-LLM explanation used when Ollama is unavailable
